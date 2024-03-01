@@ -2,7 +2,7 @@ services:
   app:
     build : ./app
     ports:
-      - "80:80"
+      - "6666:80"
   db:
     image: mysql:5.7
     environment:
